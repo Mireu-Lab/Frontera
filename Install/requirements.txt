@@ -1,0 +1,8 @@
+markdown
+# hashlib
+# sqlite3
+pydantic
+fastapi
+uvicorn[standard]
+html-to-json
+xmltodict

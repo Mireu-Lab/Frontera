@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  web:
+    build: .
+    restart: always
+    container_name: Frontera-API-services
+    command: python3 App/main.py
+    ports:
+      - '9090:80'
